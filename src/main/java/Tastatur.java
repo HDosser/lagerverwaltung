@@ -52,6 +52,7 @@ public class Tastatur {
 				error = false;
 			} catch (InputMismatchException e) {
 				error = true;
+				System.out.println("Bitte eine Ganz- oder Kommazahl eingeben!!");
 			}
 		}
 		return rs;
