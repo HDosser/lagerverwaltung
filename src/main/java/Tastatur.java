@@ -6,11 +6,12 @@ public class Tastatur {
 	// geklaut  
 	// https://entwickler-forum.de/showthread.php/61067-If-Schleife-pr%C3%BCfe-ob-Eingabe-ein-Int-ist
 	
+	public static Scanner sc = new Scanner(System.in);
 	public static String liesString(String ausgabe) {
 		String rs = null;
 		boolean error = true;
 		while (error) {
-			Scanner sc = new Scanner(System.in);
+			
 			System.out.println(ausgabe);
 			try {
 				rs = sc.next();
@@ -27,7 +28,7 @@ public class Tastatur {
 		int rs = 0;
 		boolean error = true;
 		while (error) {
-			Scanner sc = new Scanner(System.in);
+			//Scanner sc = new Scanner(System.in);
 			System.out.println(ausgabe);
 			try {
 				rs = sc.nextInt();
@@ -45,7 +46,7 @@ public class Tastatur {
 		double rs = 0;
 		boolean error = true;
 		while (error) {
-			Scanner sc = new Scanner(System.in);
+			//Scanner sc = new Scanner(System.in);
 			System.out.println(ausgabe);
 			try {
 				rs = sc.nextDouble();
