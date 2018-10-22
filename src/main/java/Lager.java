@@ -39,8 +39,8 @@ public class Lager {
 		if(gefunden != null)
 		{
 			System.out.println("Position von "+suche+": ");
-			System.out.println("Reihe :" +gefunden.getPosition().getX());
-			System.out.println("Spalte :" +gefunden.getPosition().getY());
+			System.out.println("Reihe :" +(gefunden.getPosition().getX()+1));
+			System.out.println("Spalte :" +(gefunden.getPosition().getY()+1));
 		}
 		else System.out.println("Keinen Artikel mit der Bezeichnung "+suche+" gefunden!");
 	}
