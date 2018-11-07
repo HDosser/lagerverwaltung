@@ -1,9 +1,11 @@
+import java.util.List;
 
 public interface UserInterface {
 	void konfigurieren();
-	void inhalt();
-	void position();
+	int[] inhalt();
+	String position();
 	void menueAnzeigen();
-	void auswahl();
-	void artikelAnzeigen();
+	void artikelAnzeigen(List<Artikel> liste);
+	String[] artikelEinlagern();
+	String artikelAusliefern();
 }

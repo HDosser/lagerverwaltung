@@ -1,32 +1,23 @@
 import java.util.List;
-import java.util.ArrayList;
 
-public class Lager {
+public class Lager implements I_lager{
 	
 	private List<Artikel> lagerBestand;
 	
 	public Lager() {
 		this.lagerBestand = ArtikelGenerator.getListe();
 	}
-
-	public void anzeigen()
-	{		
-		AnzeigeLager.anzeige(lagerBestand);
-	}	
-	
-	public void neuerArtikel() {
-		
-		double preis = Tastatur.liesDouble("Preis :");
-		String bezeichnung = Tastatur.liesString("Bezeichnung :");
-		String verpackung  = Tastatur.liesString("Verpackungseinheit :");
-		lagerBestand.add(new Artikel(preis,bezeichnung, getID(),verpackung, LieferantenVerwaltung.getLieferant()));
-	}	
+	public void neuerArtikelErstellen(String[] werte) {
+		double preis = Double.parseDouble(werte[0]);		
+		lagerBestand.add(new Artikel(preis,werte[1], getID(),werte[2], LieferantenVerwaltung.getLieferant()));
+	}
+	//zum fuellen eine neue id vergeben
 	private int getID()
 	{
 		return  lagerBestand.get((lagerBestand.size()-1)).getArtikelnummer()+1;
 		
 	}
-	public void sucheArtikel(String suche)
+	public void sucheArtikelName(String suche)
 	{
 		Artikel gefunden = null;
 		for(Artikel a: lagerBestand)
@@ -45,7 +36,7 @@ public class Lager {
 		else System.out.println("Keinen Artikel mit der Bezeichnung "+suche+" gefunden!");
 	}
 	
-	public void suchePosition(int reihe, int spalte)
+	public void sucheArtikelPosition(int reihe, int spalte)
 	{
 		boolean gefunden = false;
 		for(Artikel a : lagerBestand)
@@ -60,7 +51,7 @@ public class Lager {
 		if(!gefunden) System.out.println("Es wurde kein Artikel mit der position Reihe:"+reihe+" Splate:"+spalte+" gefunden!");
 	}
 	
-	public void removeArtikel(String nameArtikel)
+	public void loescheArtikel(String nameArtikel)
 	{
 		boolean gefunden = false;
 		for(Artikel a : lagerBestand)
@@ -76,17 +67,16 @@ public class Lager {
 		if(gefunden == false) System.out.println("Kein Artikel mit dem Namen"+nameArtikel+" gefunden!");
 	}
 	
-	
-	public List<Artikel> getLagerBestand() {
-		return lagerBestand;
-	}
-
 	public void setLagerBestand(List<Artikel> lagerBestand) {
 		this.lagerBestand = lagerBestand;
 	}
-	
-	
-	
+
+	public List<Artikel> getListe() {
+		return this.lagerBestand;
+	}
+
+
+
 	
 	
 	 

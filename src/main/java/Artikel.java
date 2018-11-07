@@ -1,4 +1,3 @@
-
 public class Artikel{
 	private double preis;
 	private String bezeichnung;

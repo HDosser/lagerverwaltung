@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="819ff4e8-00db-4d5e-b785-f9cfd2b41c66" name="Default Changelist" comment="" />
+    <list default="true" id="819ff4e8-00db-4d5e-b785-f9cfd2b41c66" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/I_lager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnzeigeLager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnzeigeLager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Artikel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Artikel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lieferant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lieferant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LieferantenVerwaltung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LieferantenVerwaltung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tastatur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tastatur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterface.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,32 +28,46 @@
     <session id="-2023496373">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="JAVA/" value="4" />
+          <entry key="JavaScript-modules-diagram/D:/projekts/lagerverwaltung/src/main" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="1" />
+          <entry key="java" value="14" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
+          <entry key="UML" value="5" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="java" value="133" />
           <entry key="txt" value="16" />
           <entry key="xml" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JAVA" value="133" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="XML" value="62" />
         </counts>
@@ -46,12 +75,188 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="187.63235930735937" y="307.0">Lager</node>
+                <node x="95.83486652236655" y="0.0">Lieferant</node>
+                <node x="664.5644480519481" y="208.0">Tastatur</node>
+                <node x="0.0" y="89.0">LieferantenVerwaltung</node>
+                <node x="99.58486652236655" y="208.0">ArtikelGenerator</node>
+                <node x="363.7159090909091" y="396.0">Logic</node>
+                <node x="224.70986652236655" y="89.0">Artikel</node>
+                <node x="524.5644480519481" y="208.0">AnzeigeLager</node>
+                <node x="251.45986652236655" y="0.0">Position</node>
+                <node x="386.56444805194815" y="208.0">UserInterface</node>
+                <node x="500.710082972583" y="307.0">Menue</node>
+                <node x="283.56444805194815" y="208.0">I_lager</node>
+                <node x="0.0" y="470.0">Main</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Logic" target="Menue">
+                  <point x="15.199999999999989" y="-14.5" />
+                  <point x="416.9159090909091" y="366.0" />
+                  <point x="542.710082972583" y="366.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="Artikel" target="Lieferant">
+                  <point x="-10.25" y="-14.5" />
+                  <point x="255.45986652236655" y="59.0" />
+                  <point x="182.00153318903318" y="59.0" />
+                  <point x="39.16666666666663" y="14.5" />
+                </edge>
+                <edge source="Lager" target="Artikel">
+                  <point x="19.25" y="-14.5" />
+                  <point x="245.38235930735937" y="277.0" />
+                  <point x="273.06444805194815" y="277.0" />
+                  <point x="7.454545454545439" y="14.5" />
+                </edge>
+                <edge source="LieferantenVerwaltung" target="Lieferant">
+                  <point x="-62.625" y="-14.5" />
+                  <point x="20.875" y="49.0" />
+                  <point x="103.66819985569987" y="49.0" />
+                  <point x="-39.16666666666666" y="14.5" />
+                </edge>
+                <edge source="AnzeigeLager" target="Artikel">
+                  <point x="-30.0" y="-14.5" />
+                  <point x="554.5644480519481" y="158.0" />
+                  <point x="302.9825937950938" y="158.0" />
+                  <point x="37.27272727272725" y="14.5" />
+                </edge>
+                <edge source="Menue" target="UserInterface">
+                  <point x="-31.5" y="-14.5" />
+                  <point x="511.210082972583" y="287.0" />
+                  <point x="474.31444805194815" y="287.0" />
+                  <point x="29.25" y="14.5" />
+                </edge>
+                <edge source="Logic" target="Tastatur">
+                  <point x="30.399999999999977" y="-14.5" />
+                  <point x="432.1159090909091" y="376.0" />
+                  <point x="732.0644480519481" y="376.0" />
+                  <point x="22.5" y="14.5" />
+                </edge>
+                <edge source="I_lager" target="Artikel">
+                  <point x="0.0" y="-14.5" />
+                  <point x="325.06444805194815" y="188.0" />
+                  <point x="280.6189574314575" y="188.0" />
+                  <point x="14.909090909090935" y="14.5" />
+                </edge>
+                <edge source="AnzeigeLager" target="Position">
+                  <point x="30.0" y="-14.5" />
+                  <point x="614.5644480519481" y="69.0" />
+                  <point x="326.45986652236655" y="69.0" />
+                  <point x="30.0" y="14.5" />
+                </edge>
+                <edge source="Menue" target="Tastatur">
+                  <point x="31.5" y="-14.5" />
+                  <point x="574.210082972583" y="287.0" />
+                  <point x="687.0644480519481" y="287.0" />
+                  <point x="-22.5" y="14.5" />
+                </edge>
+                <edge source="ArtikelGenerator" target="Artikel">
+                  <point x="-27.0" y="-14.5" />
+                  <point x="140.08486652236655" y="138.0" />
+                  <point x="228.43713924963927" y="138.0" />
+                  <point x="-37.27272727272728" y="14.5" />
+                </edge>
+                <edge source="Lager" target="I_lager">
+                  <point x="32.083333333333314" y="-14.5" />
+                  <point x="258.2156926406927" y="287.0" />
+                  <point x="304.31444805194815" y="287.0" />
+                  <point x="-20.75" y="14.5" />
+                </edge>
+                <edge source="Menue" target="AnzeigeLager">
+                  <point x="10.5" y="-14.5" />
+                  <point x="553.210082972583" y="277.0" />
+                  <point x="584.5644480519481" y="277.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="Logic" target="UserInterface">
+                  <point x="0.0" y="-14.5" />
+                  <point x="401.7159090909091" y="356.0" />
+                  <point x="415.81444805194815" y="356.0" />
+                  <point x="-29.25" y="14.5" />
+                </edge>
+                <edge source="ArtikelGenerator" target="LieferantenVerwaltung">
+                  <point x="-54.0" y="-14.5" />
+                  <point x="113.08486652236655" y="188.0" />
+                  <point x="125.25" y="188.0" />
+                  <point x="41.75" y="14.5" />
+                </edge>
+                <edge source="Logic" target="I_lager">
+                  <point x="-15.199999999999989" y="-14.5" />
+                  <point x="386.51590909090913" y="366.0" />
+                  <point x="345.81444805194815" y="366.0" />
+                  <point x="20.75" y="14.5" />
+                </edge>
+                <edge source="Artikel" target="Position">
+                  <point x="30.75" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="UserInterface" target="Artikel">
+                  <point x="0.0" y="-14.5" />
+                  <point x="445.06444805194815" y="178.0" />
+                  <point x="288.0735028860029" y="178.0" />
+                  <point x="22.363636363636374" y="14.5" />
+                </edge>
+                <edge source="Logic" target="Lager">
+                  <point x="-30.399999999999977" y="-14.5" />
+                  <point x="371.31590909090914" y="376.0" />
+                  <point x="226.13235930735937" y="376.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="Lager" target="LieferantenVerwaltung">
+                  <point x="-32.08333333333334" y="-14.5" />
+                  <point x="194.04902597402602" y="287.0" />
+                  <point x="66.46569264069268" y="287.0" />
+                  <point x="66.46569264069268" y="188.0" />
+                  <point x="41.75" y="188.0" />
+                  <point x="-41.75" y="14.5" />
+                </edge>
+                <edge source="Lager" target="ArtikelGenerator">
+                  <point x="-19.25" y="-14.5" />
+                  <point x="206.88235930735937" y="277.0" />
+                  <point x="167.08486652236655" y="277.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="Menue" target="Artikel">
+                  <point x="-10.5" y="-14.5" />
+                  <point x="532.210082972583" y="277.0" />
+                  <point x="514.0644480519481" y="277.0" />
+                  <point x="514.0644480519481" y="168.0" />
+                  <point x="295.52804834054837" y="168.0" />
+                  <point x="29.818181818181813" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.8250773993808049" x="311.5" y="303.0" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/I_lager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UserInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -72,6 +277,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/AnzeigeLager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Menue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lager.java" />
       </list>
     </option>
   </component>
@@ -81,10 +290,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lagerverwaltung" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -94,7 +314,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,23 +332,37 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lagerverwaltung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lagerverwaltung" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539177987964" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541607129494" />
+    <property name="last_opened_file_path" value="D:/APP-PROJEKT/my-app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projekts\lagerverwaltung\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,6 +376,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lagerverwaltung" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -153,7 +400,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539177252143</updated>
-      <workItem from="1539177253680" duration="725000" />
+      <workItem from="1539177253680" duration="2108000" />
+      <workItem from="1539257091048" duration="1433000" />
+      <workItem from="1540190991922" duration="89000" />
+      <workItem from="1540191181507" duration="863000" />
+      <workItem from="1540208508442" duration="574000" />
+      <workItem from="1540379786403" duration="7458000" />
+      <workItem from="1540809210164" duration="1295000" />
+      <workItem from="1541257956641" duration="17000" />
+      <workItem from="1541593855484" duration="898000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1539177808109</created>
@@ -166,39 +421,40 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="725000" />
+    <option name="totallyTimeSpent" value="14735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32907802" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.18014185" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932885" visible="true" weight="0.1716312" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.18014185" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.17446809" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.33892617" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,10 +482,249 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/projekts/lagerverwaltung/src/main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="549.0" y="211.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ArtikelGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Artikel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AnzeigeLager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tastatur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Menue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/I_lager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="187.63235930735937" y="307.0">Lager</node>
+            <node x="95.83486652236655" y="0.0">Lieferant</node>
+            <node x="664.5644480519481" y="208.0">Tastatur</node>
+            <node x="0.0" y="89.0">LieferantenVerwaltung</node>
+            <node x="99.58486652236655" y="208.0">ArtikelGenerator</node>
+            <node x="363.7159090909091" y="396.0">Logic</node>
+            <node x="224.70986652236655" y="89.0">Artikel</node>
+            <node x="524.5644480519481" y="208.0">AnzeigeLager</node>
+            <node x="251.45986652236655" y="0.0">Position</node>
+            <node x="386.56444805194815" y="208.0">UserInterface</node>
+            <node x="500.710082972583" y="307.0">Menue</node>
+            <node x="283.56444805194815" y="208.0">I_lager</node>
+            <node x="0.0" y="470.0">Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Logic" target="Menue">
+              <point x="15.199999999999989" y="-14.5" />
+              <point x="416.9159090909091" y="366.0" />
+              <point x="542.710082972583" y="366.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Artikel" target="Lieferant">
+              <point x="-10.25" y="-14.5" />
+              <point x="255.45986652236655" y="59.0" />
+              <point x="182.00153318903318" y="59.0" />
+              <point x="39.16666666666663" y="14.5" />
+            </edge>
+            <edge source="Lager" target="Artikel">
+              <point x="19.25" y="-14.5" />
+              <point x="245.38235930735937" y="277.0" />
+              <point x="273.06444805194815" y="277.0" />
+              <point x="7.454545454545439" y="14.5" />
+            </edge>
+            <edge source="LieferantenVerwaltung" target="Lieferant">
+              <point x="-62.625" y="-14.5" />
+              <point x="20.875" y="49.0" />
+              <point x="103.66819985569987" y="49.0" />
+              <point x="-39.16666666666666" y="14.5" />
+            </edge>
+            <edge source="AnzeigeLager" target="Artikel">
+              <point x="-30.0" y="-14.5" />
+              <point x="554.5644480519481" y="158.0" />
+              <point x="302.9825937950938" y="158.0" />
+              <point x="37.27272727272725" y="14.5" />
+            </edge>
+            <edge source="Menue" target="UserInterface">
+              <point x="-31.5" y="-14.5" />
+              <point x="511.210082972583" y="287.0" />
+              <point x="474.31444805194815" y="287.0" />
+              <point x="29.25" y="14.5" />
+            </edge>
+            <edge source="Logic" target="Tastatur">
+              <point x="30.399999999999977" y="-14.5" />
+              <point x="432.1159090909091" y="376.0" />
+              <point x="732.0644480519481" y="376.0" />
+              <point x="22.5" y="14.5" />
+            </edge>
+            <edge source="I_lager" target="Artikel">
+              <point x="0.0" y="-14.5" />
+              <point x="325.06444805194815" y="188.0" />
+              <point x="280.6189574314575" y="188.0" />
+              <point x="14.909090909090935" y="14.5" />
+            </edge>
+            <edge source="AnzeigeLager" target="Position">
+              <point x="30.0" y="-14.5" />
+              <point x="614.5644480519481" y="69.0" />
+              <point x="326.45986652236655" y="69.0" />
+              <point x="30.0" y="14.5" />
+            </edge>
+            <edge source="Menue" target="Tastatur">
+              <point x="31.5" y="-14.5" />
+              <point x="574.210082972583" y="287.0" />
+              <point x="687.0644480519481" y="287.0" />
+              <point x="-22.5" y="14.5" />
+            </edge>
+            <edge source="ArtikelGenerator" target="Artikel">
+              <point x="-27.0" y="-14.5" />
+              <point x="140.08486652236655" y="138.0" />
+              <point x="228.43713924963927" y="138.0" />
+              <point x="-37.27272727272728" y="14.5" />
+            </edge>
+            <edge source="Lager" target="I_lager">
+              <point x="32.083333333333314" y="-14.5" />
+              <point x="258.2156926406927" y="287.0" />
+              <point x="304.31444805194815" y="287.0" />
+              <point x="-20.75" y="14.5" />
+            </edge>
+            <edge source="Menue" target="AnzeigeLager">
+              <point x="10.5" y="-14.5" />
+              <point x="553.210082972583" y="277.0" />
+              <point x="584.5644480519481" y="277.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Logic" target="UserInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="401.7159090909091" y="356.0" />
+              <point x="415.81444805194815" y="356.0" />
+              <point x="-29.25" y="14.5" />
+            </edge>
+            <edge source="ArtikelGenerator" target="LieferantenVerwaltung">
+              <point x="-54.0" y="-14.5" />
+              <point x="113.08486652236655" y="188.0" />
+              <point x="125.25" y="188.0" />
+              <point x="41.75" y="14.5" />
+            </edge>
+            <edge source="Logic" target="I_lager">
+              <point x="-15.199999999999989" y="-14.5" />
+              <point x="386.51590909090913" y="366.0" />
+              <point x="345.81444805194815" y="366.0" />
+              <point x="20.75" y="14.5" />
+            </edge>
+            <edge source="Artikel" target="Position">
+              <point x="30.75" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="UserInterface" target="Artikel">
+              <point x="0.0" y="-14.5" />
+              <point x="445.06444805194815" y="178.0" />
+              <point x="288.0735028860029" y="178.0" />
+              <point x="22.363636363636374" y="14.5" />
+            </edge>
+            <edge source="Logic" target="Lager">
+              <point x="-30.399999999999977" y="-14.5" />
+              <point x="371.31590909090914" y="376.0" />
+              <point x="226.13235930735937" y="376.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Lager" target="LieferantenVerwaltung">
+              <point x="-32.08333333333334" y="-14.5" />
+              <point x="194.04902597402602" y="287.0" />
+              <point x="66.46569264069268" y="287.0" />
+              <point x="66.46569264069268" y="188.0" />
+              <point x="41.75" y="188.0" />
+              <point x="-41.75" y="14.5" />
+            </edge>
+            <edge source="Lager" target="ArtikelGenerator">
+              <point x="-19.25" y="-14.5" />
+              <point x="206.88235930735937" y="277.0" />
+              <point x="167.08486652236655" y="277.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Menue" target="Artikel">
+              <point x="-10.5" y="-14.5" />
+              <point x="532.210082972583" y="277.0" />
+              <point x="514.0644480519481" y="277.0" />
+              <point x="514.0644480519481" y="168.0" />
+              <point x="295.52804834054837" y="168.0" />
+              <point x="29.818181818181813" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8250773993808049" x="311.5" y="303.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

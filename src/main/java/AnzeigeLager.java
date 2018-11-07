@@ -13,7 +13,7 @@ public class AnzeigeLager {
 		System.out.print("  ");
 		for(int i = 0; i < spalten;i++)
 		{
-			System.out.print("|\t"+(i+1)+"\t\t|");
+			System.out.print("|\t"+(i+1)+"\t\t\t\t|");
 		}
 		
 		System.out.println();
@@ -30,6 +30,7 @@ public class AnzeigeLager {
 				if(z >= anzahlItems) break loop;
 				liste.get(z).setPosition(new Position(i,y));
 				if(liste.get(z).getBezeichnung().length() >=12)	System.out.print("| "+ liste.get(z).getBezeichnung()+"\t|");
+				else if(liste.get(z).getBezeichnung().length() <=6) System.out.print("| "+ liste.get(z).getBezeichnung()+"\t\t\t|");
 				else System.out.print("| "+ liste.get(z).getBezeichnung()+"\t\t|");
 				z++;
 			}

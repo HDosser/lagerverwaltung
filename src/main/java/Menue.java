@@ -1,11 +1,11 @@
+import java.util.List;
 
 public class Menue implements UserInterface {
 	
-	private Lager lager;
 	
-	public Menue(Lager lager)
+	public Menue()
 	{
-		this.lager = lager;		
+			
 	}
 	
 	public void menueAnzeigen()
@@ -29,28 +29,10 @@ public class Menue implements UserInterface {
 		System.out.println();
 				
 	}
-	public void auswahl()
+
+	public void artikelAnzeigen(List<Artikel> liste)
 	{
-		menueAnzeigen();
-		while(true)
-		{
-			int auswahl = Tastatur.liesInt("Nr: ");
-			
-			if(auswahl == 1) artikelAnzeigen(); //anpassen die anzeige dan kann abschliessen
-			else if(auswahl == 2) konfigurieren();
-			else if(auswahl == 3) artikelEinlagern();
-			else if(auswahl == 4) artikelAusliefern(); //muss noch machen anzeige anpassen um auszuwählen
-			else if(auswahl == 5) position(); 
-			else if(auswahl == 6) inhalt();
-			else if(auswahl == 7) menueAnzeigen();
-			else if(auswahl == 8) break;
-			else;
-		}
-		
-	}
-	public void artikelAnzeigen()
-	{
-		lager.anzeigen();
+		AnzeigeLager.anzeige(liste);
 	}
 	
 	public void konfigurieren() {
@@ -60,26 +42,37 @@ public class Menue implements UserInterface {
 		AnzeigeLager.setReihen(reihen);
 	}
 	
-	public void artikelEinlagern() {
-		lager.neuerArtikel();
+	public String[] artikelEinlagern() {
+		double preis = Tastatur.liesDouble("Preis :");
+		String bezeichnung = Tastatur.liesString("Bezeichnung :");
+		String verpackung  = Tastatur.liesString("Verpackungseinheit :");
+		
+		String rueckgabe[] = {preis+"",bezeichnung,verpackung};
+		return rueckgabe;
+		
 	}
-	public void artikelAusliefern()
+	public String artikelAusliefern()
 	{
 		String artikel = Tastatur.liesString("Welcher Artikel soll ausgeliefert werden?? (name)");
-		lager.removeArtikel(artikel);
+		return artikel;
 	}
 
-	public void inhalt() {
+	public int[] inhalt() {
 		System.out.println("Artikel nach Position suchen:");
 		int reihe = Tastatur.liesInt("In welcher Reihe befindet sich der Artikel ?");
 		int spalte = Tastatur.liesInt("In welcher Spalte befindet sich der Artikel ?");
-		lager.suchePosition(reihe,spalte);
-	}
-	public void position() {
-		String suche =  Tastatur.liesString("Nach welchen artikel suchen Sie?? (name)");
-		lager.sucheArtikel(suche);
+		
+		int[] werte = {reihe,spalte};
+		return werte;
 		
 	}
+	public String position() {
+		String suche =  Tastatur.liesString("Nach welchen artikel suchen Sie?? (name)");
+		return suche;
+		
+	}
+
+
 	
 
 }

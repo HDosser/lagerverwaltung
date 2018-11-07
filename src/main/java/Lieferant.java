@@ -1,4 +1,3 @@
-
 public class Lieferant {
 	
 	String name;
